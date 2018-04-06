@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employment Application</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+</head>
+<body>
+ <header>
+
+
+  <h1 id="title">Evil Inc Application Form</h1>
+
+  <h2 id="subtitle">Application for prospective henchman or henchwoman.</h2>
+  <p id="description"> We at Evil Inc provide equal opportunities for all job applicants and employees. We work in an environment where each lackey is treated the same way regardless of their religious beliefs, political opinions, race, sex, marital status, ethnic origin, planetary origin, sexual orientation, disability, or age. Equally, promotion and training opportunities are entirely based on an employee's ability, ruthlessness, and job performance.</p><p id="complete">Please complete this form in it's entirety and a recruiter will be contacting you shortly.</p>
+ </header>
+
+  <form id="survey-form">
+  	<div class="personalSet">
+  		<label class="section">Personal Information:</label><br>
+	  	<label id="name-label">Name: 
+	  	 <input type="text" name="name" id="name" required="true" placeholder="Full Name"></label><br>
+	  	<label id="email-label">Email:
+	  	 <input type="email" name="email" id="email" required="true" placeholder="email@address.com"> </label><br>
+	  	<label id="number-label">Age: 
+	  	 <input type="number" name="age" id="number" min="1" max="80" required="true" placeholder="25"></label><br>
+    <br>
+    <label>Current Status:</label>
+    <select id="dropdown">
+    	<option value="incarcerated">Incarcerated(In Jail)</option>
+    	<option value="probation">On Probation</option>
+    	<option value="running">On the Run</option>
+    	<option value="free">Free</option>
+    </select><br>
+    </div>
+    <div class="yearsSet">
+    <label class="section">Years of Experience:</label><br>
+	    <label class="years"><input type="radio" class="custom-input"  name="exp" ><span class="custom-radio-text-yes">Less than 1 Year</span></label><br>
+	    <label class="years"><input type="radio" class="custom-input"  name="exp" ><span class="custom-radio-text-yes">1 - 3 Years</span></label><br>
+	    <label class="years"><input type="radio" class="custom-input"  name="exp" ><span class="custom-radio-text-yes">3 - 5 Years</span></label><br>
+	    <label class="years"><input type="radio" class="custom-input"  name="exp" ><span class="custom-radio-text-yes">5+ Years</span></label><br>
+	</div>
+
+	
+	<div class="experienceSet">
+		<label class="section">I have experience in the following crime/crimes:</label><br>
+			<label class="experience" for="bank"><input type="checkbox" class="custom-input" id="bank" name="crime" value="Bank Robbery"><span class="custom-checkbox-text"> Bank Robbery</span></label>
+			<label class="experience" for="car jacking"><input type="checkbox" class="custom-input" id="car jacking" name="crime" value="Car Jacking"><span class="custom-checkbox-text">Car Jacking</span></label>
+			<label class="experience" for="kidnapping"><input type="checkbox" class="custom-input" id="kidnapping" name="crime" value="Kidnapping"><span class="custom-checkbox-text">Kidnapping</span></label>
+			<label class="experience" for="vandalism"><input type="checkbox" class="custom-input" id="vandalism" name="crime" value="Vandalism"><span class="custom-checkbox-text">Vandalism</span></label>
+			<label class="experience" for="candy from a baby"><input type="checkbox" class="custom-input" id="candy from a baby" name="crime" value="Candy from a baby"><span class="custom-checkbox-text">Taking Candy from a Baby</span></label>
+			<label class="experience" for="long monologues"><input type="checkbox" class="custom-input" id="long monologues" name="crime" value="monologues"><span class="custom-checkbox-text">Long Monologue Listening</span></label>
+			<label class="experience" for="world domination"><input type="checkbox" class="custom-input" id="world domination" name="crime" value="world domination"><span class="custom-checkbox-text">World Domination</span></label>
+	</div>
+	<div class="questionSet">
+		<label class="section">Questionairre:</label><br>
+			<label>I am comfortable being the subject of genetic experimentation as needed:</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="experiment" value="yes"><span class="custom-radio-text-yes">Yes</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="experiment" value="no"><span class="custom-radio-text-no">No</label>
+			<br>
+			<label>I am willing to have body parts replaced by cybernetics as needed:</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="cyber" value="yes"><span class="custom-radio-text-yes">Yes</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="cyber" value="no"><span class="custom-radio-text-no">No</label>
+			<br>
+			<label>I am willing to follow orders even if they seem foolish or counterproductive:</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="foolish" value="yes"><span class="custom-radio-text-yes">Yes</span></label>
+				<label class="experiment"><input type="radio" class="custom-input" name="foolish" value="no"><span class="custom-radio-text-no">No</span></label>
+			<br>
+			<label>I am able to spend the time to actually train in my weapons (gun range, practice dummy, etc):</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="practice" value="yes"><span class="custom-radio-text-yes">Yes</span></label>
+				<label class="experiment"><input type="radio" class="custom-input" name="practice" value="no"><span class="custom-radio-text-no">No</span></label>
+			<br>
+			<label>I am will verify all IDs by having them remove any helmets or hats obstructing my view:</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="obstructing" value="yes"><span class="custom-radio-text-yes">Yes</span></label>
+				<label class="experiment"><input type="radio" class="custom-input" name="obstructing" value="no"><span class="custom-radio-text-no">No</span></label>
+			<br>
+			<label>I will chase the hero before waiting on backup:</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="backup" value="yes"><span class="custom-radio-text-yes">Yes</span></label>
+				<label class="experiment"><input type="radio" class="custom-input" name="backup" value="no"><span class="custom-radio-text-no">No</span></label>
+			<br>
+			<label>When guarding a prisoner I will make sure I am well rested before starting my shift:</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="shift" value="yes"><span class="custom-radio-text-yes">Yes</span></label>
+				<label class="experiment"><input type="radio" class="custom-input" name="shift" value="no"><span class="custom-radio-text-no">No</span></label>
+			<br>
+			<label>I will wait for the medical team to arrive before opening a cell no matter what the emergency is:</label>
+				<label class="experiment"><input type="radio" class="custom-input" name="emergency" value="yes"><span class="custom-radio-text-yes">Yes</span></label>
+				<label class="experiment"><input type="radio" class="custom-input" name="emergency" value="no"><span class="custom-radio-text-no">No</span></label>
+			<br>
+			<label>If I see something suspicious I will report it BEFORE investigating:</label>
+				<label class="experiment"><input type="radio" class="custom-input"  name="before" value="yes"><span class="custom-radio-text-yes">Yes</span></label>
+				<label class="experiment"><input type="radio" class="custom-input"  name="before" value="no"><span class="custom-radio-text-no">No</span></label>
+			<br>
+
+
+	</div>
+	<div class="uniforms">
+		<label class="section">I am comfortable in the following uniforms:</label> <br>
+			<label class="uniformCheck" for="clown"><input type="checkbox" class="custom-input"  id="clown" name="uniform" value="clown"><span class="custom-checkbox-text">Clown Themed Costume</span></label>
+			<label class="uniformCheck" for="animal"><input type="checkbox" class="custom-input"  id="animal" name="uniform" value="animal"><span class="custom-checkbox-text">Animal Costume (eg Gorilla, Tiger, Emu, etc.)</span></label>
+			<label class="uniformCheck" for="scifiarmor"><input type="checkbox" class="custom-input"  id="scifiarmor" name="uniform" value="scifiarmor"><span class="custom-checkbox-text">Sci Fi Armor</span></label>
+			<label class="uniformCheck" for="moth"><input type="checkbox" class="custom-input"  id="moth" name="uniform" value="moth"><span class="custom-checkbox-text">Moth Man Costume</span></label>
+			<label class="uniformCheck" for="mobster"><input type="checkbox" class="custom-input"  id="mobster" name="uniform" value="mobster"><span class="custom-checkbox-text">Old Time Mobster Outfit</span></label>
+			<label class="uniformCheck" for="streetGang"><input type="checkbox" class="custom-input"  id="streetGang" name="uniform" value="streetGang"><span class="custom-checkbox-text">Street Gang Outfit</span></label>
+			<label class="uniformCheck" for="jumpsuit"><input type="checkbox" class="custom-input"  id="jumpsuit" name="uniform" value="jumpsuit"><span class="custom-checkbox-text">Simple Jumpsuit</span></label>
+			<label class="uniformCheck" for="ninja"><input type="checkbox" class="custom-input"  id="ninja" name="uniform" value="ninja"><span class="custom-checkbox-text">Ninja Outfit</span></label>
+			<label class="uniformCheck" for="military"><input type="checkbox" class="custom-input"  id="military" name="uniform" value="military"><span class="custom-checkbox-text">Quasi Military Costumes</span></label>
+	</div>
+
+	<div class="weapons">
+		<label class="section">I have proficiency in the following weapons:</label > <br>
+			<label class="weaponCheck" for="hand"><input type="checkbox" class="custom-input"  id="hand" name="weapon" value="hand"><span class="custom-checkbox-text">Hand to Hand Combat</span></label>
+			<label class="weaponCheck" for="swords"><input type="checkbox" class="custom-input"  id="swords" name="weapon" value="swords"><span class="custom-checkbox-text">Various Swords</span></label>
+			<label class="weaponCheck" for="handgun"><input type="checkbox" class="custom-input"  id="handgun" name="weapon" value="handgun"><span class="custom-checkbox-text">Handguns</span></label>
+			<label class="weaponCheck" for="laser"><input type="checkbox" class="custom-input"  id="laser" name="weapon" value="laser"><span class="custom-checkbox-text">Lasers</span></label>
+			<label class="weaponCheck" for="chicken"><input type="checkbox" class="custom-input"  id="chicken" name="weapon" value="chicken"><span class="custom-checkbox-text">Chickens</span></label>
+			<label class="weaponCheck" for="rockets"><input type="checkbox" class="custom-input"  id="rockets" name="weapon" value="rockets"><span class="custom-checkbox-text">Rockets</span></label>
+			<label class="weaponCheck" for="remarks"><input type="checkbox" class="custom-input"  id="remarks" name="weapon" value="remarks"><span class="custom-checkbox-text">Cutting Remarks</span></label>
+			<label class="weaponCheck" for="tanks"><input type="checkbox" class="custom-input"  id="tanks" name="weapon" value="tanks"><span class="custom-checkbox-text">Military Tanks</span></label>
+			<label class="weaponCheck" for="bow"><input type="checkbox" class="custom-input"  id="bow" name="weapon" value="bow"><span class="custom-checkbox-text">Bow and Arrow</span></label>
+	</div>
+
+	<div class="commentsSet">
+		<label class="section">Additional Comments and Concerns:</label>
+		<textarea name="comments" placeholder="Comments"></textarea>
+	</div>
+	<div id="footer">
+		<button id="submit" >Submit</button>
+	</div>
+  </form>
+</body>
+</html>

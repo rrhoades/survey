@@ -1,0 +1,121 @@
+.experience , .uniformCheck, .experiment, .weaponCheck {
+	display: inline-block;
+
+}
+
+textarea {
+	width: 94%;
+	margin-left: 2%;
+	margin-right: 2%;
+	
+}
+
+
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	margin: 0 2% 0 2%;
+	padding-bottom: 1%;
+}
+
+#complete{
+	font-weight: bold;
+	margin: 2% 5% 0px 5%;
+}
+
+#description {
+	margin: 0px 5% 0px 5%;
+	font-size: 1.1em;
+}
+
+h1. h2 {
+	margin: 0px 5% 0px 5%;
+}
+
+h1 {
+	color:#AD0D00;
+	background-color: #496d70;
+	padding: 2%;
+	border-radius: 25%;
+}
+
+.commentsSet {
+	max-height: 200px;
+
+}
+
+#survey-form {
+	background-color: #325558;
+	margin: 0 2% 2% 2%;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+
+}
+
+div {
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	padding: 5px;
+}
+
+.experienceSet {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	/* background-color: #59381A */
+}
+
+html {
+	/* background-color:#401B3D; */
+	background-color:#0D0800;
+}
+
+button {
+	font-size: 1.5em;
+	margin: 2% 0 2% 0;
+	border-radius: 10%;
+	border-width: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.section {
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color:blue;
+}
+
+label {
+	margin-left: 2%;
+}
+
+.custom-input:checked  ~ .custom-checkbox-text {
+	background-color: #1E4044;
+	color:white;
+}
+
+.custom-input:checked  ~ .custom-radio-text-yes {
+	background-color: #25562B;
+	color:white;
+}
+
+.custom-input:checked  ~ .custom-radio-text-no {
+	background-color: #6F3330;
+	color:white;
+}
